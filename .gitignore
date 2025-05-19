@@ -1,0 +1,54 @@
+# === Python cache & virtual env ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env/
+.venv/
+env/
+venv/
+
+# === Jupyter & VS Code settings ===
+.ipynb_checkpoints/
+.vscode/
+
+# === Model files ===
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+
+# === Model directories ===
+model/model.safetensors
+checkpoints/
+saved_models/
+outputs/
+logs/
+results/
+
+# === Hugging Face cached models & tokenizer ===
+*.cache/
+transformers_cache/
+datasets_cache/
+*.jsonl
+
+# === Zipped artifacts ===
+*.zip
+*.tar.gz
+*.rar
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+
+*/model.safetensors
+*.bin
+*.pt
